@@ -31,7 +31,7 @@
     <div class="header">
         <ul class="nav nav-pills pull-right">
             <!-- Links to the two menu views included -->
-            <li active><a href="/#/join">Add a Location</a></li>
+            <li active><a href="/#/add">Add a Location</a></li>
             <li disabled><a href="/#/find">Filter Locations</a></li>
         </ul>
         <img src="./images/victory-road-2.png" alt="Victory Road" width = "25%" margin-bottom = "5px">
@@ -39,8 +39,8 @@
     <!-- Map and Side Panel -->
     <div class="row content">
         <!-- Google Map -->
-        <div class="col-md-7">
-            <div id="map" style="width:645px; height:645px"></div>
+        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+            <div id="map"></div>
         </div>
         <!-- Side Panel -->
         <div ng-view></div>
