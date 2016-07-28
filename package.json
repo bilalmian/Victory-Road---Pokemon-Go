@@ -1,5 +1,5 @@
 {
-  "name": "Victory Road",
+  "name": "VictoryRoad",
   "description": "MEAN application that uses geolocation to crowdsource a PokeStops and Pokemon Gyms",
   "main": "server.js",
   "scripts": {
@@ -12,5 +12,8 @@
     "method-override": "^2.3.6",
     "mongoose": "^4.5.7",
     "morgan": "^1.7.0"
+  },
+  "engines": {
+    "node": "6.2.2"
   }
 }
