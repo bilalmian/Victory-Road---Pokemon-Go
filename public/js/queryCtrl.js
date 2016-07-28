@@ -37,8 +37,8 @@ queryCtrl.controller('queryCtrl', function($scope, $log, $http, $rootScope, geol
             longitude: parseFloat($scope.formData.longitude),
             latitude: parseFloat($scope.formData.latitude),
             distance: parseFloat($scope.formData.distance),
-            pokestop: $scope.formData.pokestop,
-            pokegym: $scope.formData.pokegym,
+            PokeStop: $scope.formData.pokestop,
+            PokeGym: $scope.formData.pokegym,
             reqVerified: $scope.formData.verified
         };
 

@@ -12,6 +12,8 @@ var app             = express();
 // -----------------------------------------------------
 // Sets the connection to MongoDB
 mongoose.connect("mongodb://localhost/VictoryRoadApp");
+//mongoose.connect("mongodb://-:-@ds033015.mlab.com:33015/-");
+
 
 // Logging and Parsing
 app.use(express.static(__dirname + '/public'));                 // sets the static files location to public
